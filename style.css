@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: Red;
+    font-size: 50px;
+    text-shadow: 2px;
+}
+
+#bio {
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: right;
+    color: black;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: dodgerblue;
+}
